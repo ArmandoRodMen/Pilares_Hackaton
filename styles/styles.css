@@ -19,8 +19,13 @@ img{
     bottom: 0px;
 }
 
+.card-title{
+    background-color: violet;
+}
+
 #formulario{
     position: absolute;
     margin-top: 85rem;
     margin-left: 25rem;
 }
+

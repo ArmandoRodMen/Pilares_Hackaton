@@ -9,23 +9,57 @@ img{
     z-index: -1;
 }
 
-.navbar{
-    margin-left: 10rem;
-    background-color: rgb(161, 22, 22);
+.bordes{
+    border-style: dotted;
 }
 
-.button{
-    position: absolute;
-    bottom: 0px;
+a{
+    text-decoration: none;
 }
 
-.card-title{
-    background-color: violet;
+nav{
+    height: 3rem;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    align-items: center; 
+    justify-content: space-around;
 }
 
-#formulario{
-    position: absolute;
-    margin-top: 85rem;
-    margin-left: 25rem;
+.bloque{
+    margin-left: 35rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.title1{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    padding-left: 3rem;
+    display: block;
+}
+
+.texto1{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+footer{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+button.SOS {
+    position: fixed;
+    margin: 1rem;
+    padding: 1rem;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: red;
+}

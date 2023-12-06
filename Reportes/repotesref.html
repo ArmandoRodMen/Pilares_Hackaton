@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reportesref.css">
+    <title>Formulario de Reportes</title>
+</head>
+<body>
+    
+    <h2>Formulario de Reportes</h2>
+
+    <form action="procesar_reporte" method="post">
+        <label for="tipo_usuario">Tipo de Usuario:</label>
+        <select name="tipo_usuario" id="tipo_usuario" required>
+            <option value="usuario_Vehiculonomotorisao">Vehículo no motorizado</option>
+            <option value="usuario_peaton">Peatón</option>
+            <option value="usuario_vehiculomotorisado">Vehículo motorizado</option>
+        </select>
+
+        <label for="tipo_reporte">Tipo de Reporte:</label>
+        <select name="tipo_reporte" id="tipo_reporte" required>
+            <option value="Recomendación">Recomendación</option>
+            <option value="Denuncia">Denuncia</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br>
+
+        <label for="comentario">Comentario:</label>
+        <textarea name="comentario" id="comentario" rows="4" required></textarea>
+        <br>
+        <br>
+        <br>
+
+        <!-- JS para redireccionar con un click -->
+        <button type="button" onclick="redirigirAPagina()">Enviar reporte</button>
+
+        <!-- Script para la redirección -->
+        <script>
+            function redirigirAPagina() {
+                window.location.href = "foro.html";
+            }
+        </script>
+    </form>
+    
+</body>
+</html>

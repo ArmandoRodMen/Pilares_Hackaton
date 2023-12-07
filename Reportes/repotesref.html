@@ -8,18 +8,34 @@
     <title>Formulario de Reportes</title>
 </head>
 <body>
-    
-    <h2>Formulario de Reportes</h2>
+   <div class="cover">
+    <p></p>
+   </div>
+   <img src="Torre_latinamericana_CDMX.webp" alt="torrelatino" class="fondo">
+   <br>
+    <br>
+    <br>
+    <br>
+    <h1>Formulario de Reportes</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <form action="procesar_reporte" method="post">
-        <label for="tipo_usuario">Tipo de Usuario:</label>
+        <label for="tipo_usuario" class="caja">Tipo de Usuario:</label>
         <select name="tipo_usuario" id="tipo_usuario" required>
             <option value="usuario_Vehiculonomotorisao">Vehículo no motorizado</option>
             <option value="usuario_peaton">Peatón</option>
             <option value="usuario_vehiculomotorisado">Vehículo motorizado</option>
         </select>
 
-        <label for="tipo_reporte">Tipo de Reporte:</label>
+        <label for="tipo_reporte" class="caja">Tipo de Reporte:</label>
         <select name="tipo_reporte" id="tipo_reporte" required>
             <option value="Recomendación">Recomendación</option>
             <option value="Denuncia">Denuncia</option>
@@ -27,7 +43,7 @@
         </select>
         <br>
 
-        <label for="comentario">Comentario:</label>
+        <label for="comentario" class="caja">Comentario:</label>
         <textarea name="comentario" id="comentario" rows="4" required></textarea>
         <br>
         <br>
